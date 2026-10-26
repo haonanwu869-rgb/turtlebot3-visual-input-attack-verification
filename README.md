@@ -136,3 +136,18 @@ To reduce this risk, the system will compare only their overlapping forward regi
 
 If fine-grained sensor alignment proves too difficult, we will simplify the experiment to a fixed forward route with a single distinctive obstacle, comparing the camera's binary obstacle/clear decision with LiDAR distance measurements in a predefined forward sector. Persistent disagreement between the two sensors will be treated as suspicious.
 
+
+
+## 6. Collaboration scaffold (proposed)
+
+本协作骨架由 Wu Haonan 的原项目整理迁入，尚待全组确认；未声明环境或业务代码已运行通过。上述研究内容保持不变。
+
+- [协作与合并规则](CONTRIBUTING.md)
+- [环境路线与验收要求](docs/environment.md)
+- [模块接口与信任边界](docs/interfaces.md)
+- [个人环境验收记录](docs/environment-checks/README.md)
+- [贡献记录](docs/contributions.md) / [AI 使用记录](docs/ai-usage.md)
+- [迁入范围与全组确认清单](docs/integration-review.md)
+- [实验结果与复现记录](results/README.md)
+
+目录约定：src/ 放自编 ROS 包，worlds/ 放场景，configs/ 放参数，scripts/ 放运行及分析工具，results/ 放结果索引。当前这些目录为骨架。
